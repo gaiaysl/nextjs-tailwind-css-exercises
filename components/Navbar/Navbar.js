@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import styles from "../Navbar/Navbar.module.scss"
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -39,9 +40,9 @@ export default function Navbar() {
                             </div>
                             <div className={styles.menu}>
                                 <div className={styles.container}>
-                                    <a href="/">
+                                    <Link href="/">
                                     <Image src="/Gaia-Logo.png" alt="logo" width="140"  height="100" className={styles.image}/>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className={styles.navigation}>
                                     <div className={styles.navigationTwo}>
@@ -75,7 +76,15 @@ export default function Navbar() {
                                     <div>
                                         <Menu.Button className={styles.menuButton} >
                                             <span className={styles.span}>Open user menu</span>
-                                            <Image src="/gaye.jpg" alt="gaye" width="32"  height="32" className={styles.imageTwo}/>
+                                            <Image
+                                                className={styles.menuButton}
+                                                src="/gaye.jpg"
+                                                alt="gaye"
+                                                width="42"
+                                                height="42"
+
+
+                                            ></Image>
                                         </Menu.Button>
                                     </div>
                                     <Transition

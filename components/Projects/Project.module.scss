@@ -1,0 +1,73 @@
+.container{
+  @apply
+  bg-gray-100
+}
+.rightLeft{
+  @apply
+  max-w-7xl
+  mx-auto px-4
+  sm:px-6
+  lg:px-8
+}
+.topBottom{
+  @apply
+  max-w-2xl
+  mx-auto
+  py-16
+  sm:py-24
+  lg:py-32
+  lg:max-w-none
+}
+.h2{
+  @apply
+  text-2xl
+  font-extrabold
+  text-gray-900
+}
+.boxContainer{
+  @apply
+  mt-6
+  space-y-12
+  lg:space-y-0
+  lg:grid
+  lg:grid-cols-3
+  lg:gap-x-6
+}
+.box{
+  @apply
+  relative
+  rounded-lg
+  overflow-hidden
+  group-hover:opacity-75
+  sm:aspect-w-2
+  sm:aspect-h-1
+  sm:h-auto
+  lg:aspect-w-1
+  lg:aspect-h-1
+}
+.img{
+  @apply
+  mt-6
+  space-y-12
+  lg:space-y-0
+  lg:grid
+  lg:gap-x-6
+}
+.h3{
+  @apply
+  mt-6
+  text-sm
+  text-gray-500
+}
+.span{
+  @apply
+  absolute
+  inset-0
+
+}
+.p{
+  @apply
+  text-base
+  font-semibold
+  text-gray-900
+}
