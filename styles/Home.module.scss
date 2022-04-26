@@ -1,6 +1,9 @@
 .container {
   padding: 0 2rem;
 }
+.content{
+  @apply text-3xl font-bold underline
+}
 
 .main {
   min-height: 100vh;
