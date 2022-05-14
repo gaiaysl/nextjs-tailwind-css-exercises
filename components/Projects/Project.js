@@ -1,6 +1,7 @@
 import WeatherImage from "../../public/Images/weather.png"
 import RickyMortyIMage from "../../public/Images/rickMorty.jpg"
 import DictionaryImage from "../../public/Images/dictionary.jpg"
+import Tailwindcss from "../../public/Images/tailwindcss.png"
 import Image from "next/image";
 import styles from "../Projects/Project.module.scss";
 
@@ -25,6 +26,13 @@ const callouts = [
         imageSrc: DictionaryImage,
         imageAlt: "dictionary",
         href: 'https://dictionary-app-react-nextjs-with-api.vercel.app/',
+    },
+    {
+        name: 'tailwindcss-ecommerce-nextJs',
+        description: 'tailwindcss-ecommerce-nextJs.app',
+        imageSrc:Tailwindcss,
+        imageAlt: "tailwindcss-ecommerce",
+        href: 'https://tailwindcss-ecommerce-nextjs.vercel.app/',
     },
 ]
 

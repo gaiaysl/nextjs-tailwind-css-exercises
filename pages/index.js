@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
-
 import Projects from "../components/Projects/Project";
 import Team from "../components/Team/Team";
 

@@ -48,14 +48,14 @@ export default function Team() {
                     <div className={styles.card}>
 
                         {teams.map((member) =>(
-                        <div className={styles.text}>
+                        <div key={teams.id} className={styles.text}>
                             <div className={styles.textContent}>
                                 <div className={styles.smallCard}>
                                     <div className={styles.img}>
                                         <Image
                                             src={member.imageSrc}
-                                            className={styles.team1}
-                                        />
+                                            alt={member.imageSrc}
+                                            className={styles.team1}></Image>
                                     </div>
                                 </div>
 
